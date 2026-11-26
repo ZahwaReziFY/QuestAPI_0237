@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.lifecycle.runtime.compose)
     implementation(libs.navigation.compose)
     implementation(libs.retrofit.serialization)
+    implementation(libs.kotlinx.serialization.json)
 
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
